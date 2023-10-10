@@ -41,4 +41,7 @@ Copyright © Sojung Park (Bei) All rights reserved.
 
 ## 3. 스터디원 코드 리뷰해주기
 
-
+## 🍀 Members
+| [![텍스트](https://avatars.githubusercontent.com/u/113087916?v=4)](https://github.com/SuhJiyeon) | [![텍스트]()]() | [![텍스트](https://avatars.githubusercontent.com/u/126257712?v=4)](https://github.com/wkdal1433) | [![텍스트](https://avatars.githubusercontent.com/u/39264396?v=4)](https://github.com/riadan710) | [![텍스트](https://avatars.githubusercontent.com/u/101778526?v=4)](https://github.com/yuseoyeon) | 
+|:---:|:---:|:---:|:---:|:---:|
+| 져니/서지연 | 수박/박승연 | 제이/장준수 | 마르코/이우진 | 시즈쿠/유서연 |
