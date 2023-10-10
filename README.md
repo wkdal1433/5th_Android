@@ -40,3 +40,5 @@ Copyright © Sojung Park (Bei) All rights reserved.
 ## 2. Main 브랜치로 PR(Pull Request) 날리기
 
 ## 3. 스터디원 코드 리뷰해주기
+
+
