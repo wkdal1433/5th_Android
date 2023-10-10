@@ -1,5 +1,5 @@
 # 💚 UMC MJU 5th_Android
-[UMC MJU 5th를 위한 깃허브 사용법 및 규칙](https://makeus-challenge.notion.site/UMC-MJU-GITHUB-RULE-37679fa4f8fb4af4b2d0504b2a3e432d)
+[UMC MJU 5th를 위한 깃허브 사용법 및 규칙](https://makeus-challenge.notion.site/UMC-MJU-GITHUB-RULE-49d597d8c58c4089a4c51a519b7d5350?pvs=4)
 
 <br>
 
