@@ -5,20 +5,20 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.viewpager2.widget.ViewPager2
-import com.example.flo.databinding.FragmentHomeBinding
-import me.relex.circleindicator.CircleIndicator3
+import com.example.flo.databinding.FragmentLockerBinding
+import com.google.android.material.tabs.TabLayoutMediator
 
-class HomeFragment : Fragment() {
+class LockerFragment : Fragment() {
 
-    lateinit var binding: FragmentHomeBinding
+    lateinit var binding: FragmentLockerBinding
+    private val information= arrayListOf("저장한 곡","음악파일")
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentHomeBinding.inflate(inflater, container, false)
+        binding = FragmentLockerBinding.inflate(inflater, container, false)
         return binding.root
     }
 }
