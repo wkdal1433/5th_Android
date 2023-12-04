@@ -141,12 +141,12 @@
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:src="@drawable/ic_my_like_off"/>
-        <ImageView
-            android:id="@+id/song_like_iv_on"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:src="@drawable/ic_my_like_on"
-            android:visibility="gone"/>
+<!--        <ImageView-->
+<!--            android:id="@+id/song_like_iv_on"-->
+<!--            android:layout_width="25dp"-->
+<!--            android:layout_height="25dp"-->
+<!--            android:src="@drawable/ic_my_like_on"-->
+<!--            android:visibility="gone"/>-->
         <ImageView
             android:id="@+id/song_unlike_iv"
             android:layout_width="25dp"

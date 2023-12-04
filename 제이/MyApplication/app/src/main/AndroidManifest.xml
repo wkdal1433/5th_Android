@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,9 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FLO">
 
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".ui.main.MainActivity"/>
         <activity
-            android:name=".SplashActivity"
+            android:name=".ui.splash.SplashActivity"
             android:exported="true"
             ><!--            android:theme="@style/SplashTheme"-->
 
@@ -22,8 +23,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SongActivity"
+            android:name=".ui.song.SongActivity"
             android:exported="true"/>
+        <activity android:name=".ui.main.look.LookFragment" />
+
+        <activity android:name=".ui.signin.LoginActivity" />
+        <activity android:name=".ui.signup.SignUpActivity" />
+
     </application>
 
 </manifest>

@@ -2,7 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    >
 
     <TextView
         android:id="@+id/locker_title_tv"
@@ -31,7 +32,7 @@
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/locker_content_tb"
-        android:layout_width="250dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         app:tabSelectedTextColor="#3f3fff"
@@ -92,6 +93,7 @@
         app:layout_constraintBottom_toBottomOf="@id/locker_select_all_img_iv"
         app:layout_constraintEnd_toEndOf="parent"/>
 
+
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/locker_content_vp"
         android:layout_width="match_parent"
@@ -101,6 +103,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/locker_select_all_img_iv" />
+        app:layout_constraintTop_toBottomOf="@id/locker_select_all_img_iv" >
+
+
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:id="@+id/locker_content_RV"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                tools:listitem="@layout/fragment_locker_musicfile"-->
+<!--                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />-->
+
+
+    </androidx.viewpager2.widget.ViewPager2>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
