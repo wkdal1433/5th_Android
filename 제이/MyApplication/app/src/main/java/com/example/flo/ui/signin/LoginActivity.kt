@@ -52,7 +52,7 @@ class LoginActivity: AppCompatActivity() , LoginView {
 
         authService.login(User(email, pwd,""))
 
-        Toast.makeText(this,"회원 정보가 존재하지 않습니다.",Toast.LENGTH_SHORT).show()
+//        Toast.makeText(this,"회원 정보가 존재하지 않습니다.",Toast.LENGTH_SHORT).show()
 
     }
 
